@@ -4,6 +4,7 @@
  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" /> 
 
 Légère application sous forme de jeu, ou le but est de trouver un mot, sans mourir, dans un thème préalablement choisi.
+Possibilités de jouer avec les touches du clavier
 
 ## Installation
 
