@@ -7,7 +7,7 @@ Légère application sous forme de jeu, ou le but est de trouver un mot, sans mo
 
 ## Installation
 
-Télécharger le fichier ZIP , Extraire ici, et lancer Index.html avec votre Nagivateur
+Télécharger le fichier ZIP , Extraire ici, et lancer Hangman.html avec votre Nagivateur
 
 ## Fabriqué avec
 
