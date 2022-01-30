@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Jeu Du Pendu</title>
+</head>
+
+<body>
+    <div class="conteneur">
+        <div class="header">
+            <h3>Pendu / KOCH.ENTERTAINMENT</h3>
+            <div id="categories" class="categories">
+                <label for="categories">Categories : </label>
+                <select name="select-category" id="select-category">
+                    <option value="villes"> -- Choississez Un Thème -- </option>
+                    <option value="villes">Villes De France</option>
+                    <option value="pays">Pays</option>
+                    <option value="animaux">Animaux</option>
+
+                </select>
+            </div>
+        </div>
+
+        <div class="jeu">
+
+            <div id="wrapper">
+                <div id="score"></div>
+                <div id="life"></div>
+                <div id="repondre">
+                    <ul></ul>
+                </div>
+                <div id="choix">
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="controls">
+        <a href="./hangman.html" class="btn" id="reset">Recommencer</a>
+        <a href="#" class="btn" id="reset">Retour Aux Jeux</a>
+    </section>
+
+    <audio id="audioclick" src="./song/Click.mp3"></audio>
+    <audio id="audiowin" src="./song/Win.mp3"></audio>
+    <audio id="audiolose" src="./song/Die.mp3"></audio>
+
+    <script src="./js/fonction.js"></script>
+    <script src="./js/pendu.js"></script>
+    <script src="./js/words.js"></script>
+
+</body>
+
+</html>
