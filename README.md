@@ -16,6 +16,6 @@ Télécharger le fichier ZIP , Extraire ici, et lancer Hangman.html avec votre N
 * [Tailwind.css](https://tailwindcss.com/) - Framework CSS (front-end)
 * [JavaScript](https://www.javascript.com/) - Programmation de scripts
 
-## Auteurs
+## Auteur
 
 * **KOCH Thomas** _alias_ [@TK](https://github.com/KOCH-Thomas)
